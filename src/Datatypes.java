@@ -31,26 +31,32 @@ public class Datatypes {
         System.out.println(z);
         System.out.println(w);
 
-
+        //20 Sep Ex 1
         int myNum = 9;
-float myFloatNum = 8.99f;
-char myLetter = 'A';
-boolean myBool = false;
-String myText = "Hello World";
+        float myFloatNum = 8.99f;
+        char myLetter = 'A';
+        boolean myBool = false;
+        String myText = "Hello World";
         String myOtherText = "1a2b3c";
 
-
+        //20 Sep Ex 2a
         byte myotherByte=80;
         int q=7;
         q=myotherByte;
         System.out.println(q);
 
+        //20 Sep Ex 2b
         float mysecondFloat= 3.2f;
         int v=20;
         v=(int) mysecondFloat;
         System.out.println(v);
 
-
+        //27 Sep Ex 1
+        float myFloatNum1=8.7f;
+        float myFloatNum2=10.99f;
+        System.out.println(myFloatNum1+myFloatNum2);
+        System.out.println(myFloatNum1-myFloatNum2);
+        System.out.println(myFloatNum1*myFloatNum2);
 
     }
 }

@@ -20,9 +20,24 @@ public class myString
         char PrimaLitera=myName.charAt(0);
         System.out.println(PrimaLitera);
 
+        // 20 Sep Ex 3
         String tara="Norvegia";
         int lungimeastringului=tara.length();
         System.out.println(lungimeastringului);
 
+        //27 Sep Ex 2
+        String myFavouriteMovie="Everything Everywhere All at Once";
+        System.out.println("My favourite movie is " + "\"" + myFavouriteMovie + "\"");
+
+
+        //27 Sep Ex 3
+        myFavouriteMovie.toUpperCase();
+        myFavouriteMovie.toLowerCase();
+        System.out.println(myFavouriteMovie.toUpperCase());
+        System.out.println(myFavouriteMovie.toLowerCase());
+
+        //27 Sep Ex 4
+        int lungimemyFavouriteMovie = myFavouriteMovie.length();
+        System.out.println(lungimemyFavouriteMovie);
     }
 }
